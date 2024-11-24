@@ -147,7 +147,7 @@
             this.pb9.TabIndex = 9;
             this.pb9.TabStop = false;
             this.pb9.Tag = "?";
-            this.pb9.Click += new System.EventHandler(this.pictureBox7_Click);
+            this.pb9.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pb8
             // 
@@ -163,7 +163,7 @@
             this.pb8.TabIndex = 8;
             this.pb8.TabStop = false;
             this.pb8.Tag = "?";
-            this.pb8.Click += new System.EventHandler(this.pictureBox8_Click);
+            this.pb8.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pb7
             // 
@@ -179,7 +179,7 @@
             this.pb7.TabIndex = 7;
             this.pb7.TabStop = false;
             this.pb7.Tag = "?";
-            this.pb7.Click += new System.EventHandler(this.pictureBox9_Click);
+            this.pb7.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pb6
             // 
@@ -195,7 +195,7 @@
             this.pb6.TabIndex = 6;
             this.pb6.TabStop = false;
             this.pb6.Tag = "?";
-            this.pb6.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.pb6.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pb5
             // 
@@ -211,7 +211,7 @@
             this.pb5.TabIndex = 5;
             this.pb5.TabStop = false;
             this.pb5.Tag = "?";
-            this.pb5.Click += new System.EventHandler(this.pictureBox5_Click);
+            this.pb5.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pb4
             // 
@@ -227,7 +227,7 @@
             this.pb4.TabIndex = 4;
             this.pb4.TabStop = false;
             this.pb4.Tag = "?";
-            this.pb4.Click += new System.EventHandler(this.pictureBox6_Click);
+            this.pb4.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pb3
             // 
@@ -243,7 +243,7 @@
             this.pb3.TabIndex = 3;
             this.pb3.TabStop = false;
             this.pb3.Tag = "?";
-            this.pb3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pb3.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pb2
             // 
@@ -259,7 +259,7 @@
             this.pb2.TabIndex = 2;
             this.pb2.TabStop = false;
             this.pb2.Tag = "?";
-            this.pb2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pb2.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // pb1
             // 
@@ -273,7 +273,7 @@
             this.pb1.TabIndex = 10;
             this.pb1.TabStop = false;
             this.pb1.Tag = "?";
-            this.pb1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pb1.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // Form1
             // 
@@ -293,6 +293,7 @@
             this.Controls.Add(this.pb2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
